@@ -13,16 +13,16 @@ class Config(object):
     LOGGER = True
     # MUST NEEDED VARS
     # set this value with your name
-    ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+    ALIVE_NAME = os.environ.get("𝗜𝗟𝗜𝗔ⁿ", None)
     # Get the values for following 2 from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 6))
-    API_HASH = os.environ.get("API_HASH") or None
+    APP_ID = int(os.environ.get("25891364", 6))
+    API_HASH = os.environ.get("405ef1bed8445051cfbced4534428e27") or None
     # Datbase url heroku sets it automatically else get this from elephantsql
-    DB_URI = os.environ.get("DATABASE_URL", None)
+    DB_URI = os.environ.get("postgres://xpnelutt:QmYibBtFYDghJoTbcUPqyTUIl9pWmD-1@peanut.db.elephantsql.com/xpnelutt ", None)
     # Get this value by running python3 stringsetup.py or https://repl.it/@sandeep1709/generatestringsession
-    STRING_SESSION = os.environ.get("STRING_SESSION", None)
+    STRING_SESSION = os.environ.get("1BJWap1sBu3X0FlGmSo2G-bRyr_vnjU68yziYCEp2KKz3XdKTAROI9MGB2L1HaHm0QJbhbleA8fAOeFffpBtBQEJ3inOnxjGZxLouaRQs8wQj0OmrgS8TfXhIqvhslIeL9cjr2-ReCIhrOKefKjJo8oaVFTedqjinjcyJM-JrUBCqcJuNff6KHwX6mSKQFWokAMHQBzqSlTJoI1gL6dQ-ST-fjdtklS-bKI0ypSQOA1cXIYQ0_WK3fSMI2S8lCG5zAQ6UfLlcbm1WPxHTs51VeZs5DoXxudYyJVnSfGta7pnCWqkFqPwr84krOX3tIWMEEylqPJ60lDMYgPDg1QAI2mktIx2P8No=", None)
     # Telegram BOT Token and bot username from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get(
+    TG_BOT_TOKEN = os.environ.get("5820669573:AAE94l9ofTvmSAFiYGpHMpi4IrxbzfEa2KE") or os.environ.get(
         "TG_BOT_TOKEN_BF_HER", None
     )
     TG_BOT_USERNAME = None
